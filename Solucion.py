@@ -98,9 +98,9 @@ while True:
             hoja_estadisticas['A1'].value = 'Jugador'
             hoja_estadisticas['B1'].value = 'Resultado'
             hoja_estadisticas['C1'].value = 'Dificultad'
-            for i, nombre in enumerate(nombres_de_jugadores): # PREGUNTARLE A URIA
+            for i, nombre in enumerate(nombres_de_jugadores):
                 hoja_estadisticas.cell(row=i+2, column=1).value = nombre
-                hoja_estadisticas.cell(row=i+2, column=2).value = 'Ganó' if resultados_de_jugadores[i] else 'Perdió' # PREGUNTARLE A URIA
+                hoja_estadisticas.cell(row=i+2, column=2).value = 'Ganó' if resultados_de_jugadores[i] else 'Perdió'
                 hoja_estadisticas.cell(row=i+2, column=3).value = dificultad_elegida[i]
             estadistica.save('Estadísticas.xlsx')
             
