@@ -10,14 +10,14 @@ def intro_intentos():
         intento_usuario = int(input(f'Intento {intento}: '))
         if intento_usuario == numero_a_adivinar:
             print('¡Ganaste! El numero era:',numero_a_adivinar,'.' )
-            return True # NO ENTIENDO ESTA PARTE, QUE PASA CUANDO PONGO RETURN TRUE
+            return True
         elif intento_usuario < numero_a_adivinar:
             print('Demasiado bajo. Intenta de nuevo.')
         else:
             print('Demasiado alto. Intenta de nuevo.')
     else:
         print(f'¡Agotaste tus intentos! El número era {numero_a_adivinar}.') 
-        return False # NO ENTIENDO ESTA PARTE, QUE PASA CUANDO PONGO RETURN FALSE
+        return False
 
 def dificultad():
     while True:
@@ -65,7 +65,7 @@ while True:
             print('2. No')
             eleccion = int(input())
             if eleccion == 1:
-                continue  # QUE HACE EL CONTINUE EN ESTE CASO
+                continue
             else:
                 break
 
@@ -87,7 +87,7 @@ while True:
             print('2. No')
             eleccion = int(input())
             if eleccion == 1:
-                continue  # QUE HACE EL CONTINUE EN ESTE CASO
+                continue
             else:
                 break
 
