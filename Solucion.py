@@ -56,7 +56,7 @@ while True:
             nombre_jugador = str(input('Introduce tu nombre: '))
             maxintentos= dificultad()
             numero_a_adivinar= rand.randint(1,1000)
-            print('Comienza el juego, suerte!')
+            print(f'Buena suerte {nombre_jugador}, comienza a adivinar!')
             resultado = intro_intentos()
             info_listas()
             
