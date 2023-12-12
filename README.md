@@ -2,7 +2,7 @@
 
 El siguiente proyecto es realizado por Guillermo Lodeiro, alumno del máster en Big Data and Data Science de la Universidad Complutense de Madrid.
 El objetivo es poner en práctica los conocimientos adquiridos en la clase de Programación Python - Básico, utilizando bucles For y While, definiendo funciones e importando los módulos correspondientes.
-El proyecto fue realiado utilizando el editor de código Visual Studio Code.
+El proyecto fue realizado utilizando el editor de código Visual Studio Code.
 
 Autor: Guillermo Lodeiro
 
