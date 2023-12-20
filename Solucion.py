@@ -1,9 +1,15 @@
+"""Importo 5 modulos, random me ayudara a conseguir un número pseudo aleatorio para el modo 1 jugador del juego, openpyxl lo utilizo para crear el archivo excel
+# donde se anotaran los resultados de las partidas, getpass es para que en el modo 2 jugadores, cuando el jugador 1 ingrese el número a adivinar, el jugador 2
+no pueda verlo, os es utilizado para definir la ruta hacia el excel creado, y finalmente subprocess es quien hará que el archivo excel se abrá cuando el usuario
+seleccione la opción 3 (Estadísticas) en el menú."""
+
 import random as rand
 import openpyxl as xl
 import getpass
 import os
 import subprocess
 
+#Estas tres funciones fueron creadas ya que sus respectivos bloques de códigos se repetían más de una vez.
 
 def intro_intentos():
     for intento in range(1, maxintentos + 1): 
